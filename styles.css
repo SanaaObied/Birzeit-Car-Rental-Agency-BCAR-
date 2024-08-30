@@ -1,0 +1,536 @@
+/* CSS */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color:#fff;
+
+  }
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px; /*///////////////////////////////////////////////////////////////////////////////////////////////// */
+    height: 100%;
+    background-color:  #FF6666;
+    color: #fff;
+    gap:20px;
+  }
+  
+  .navigation a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .navigation a:hover {
+    color: #ccc;
+  }
+  /*///////////////////////////////////////////////////////////////////////////////////////////////// */
+  footer {
+    background-color: #FF6666;
+    color: #fff;
+    padding: 43px;
+    text-align: center;
+    display: flex;
+    flex-direction: row; /*/////////////// Change this to row to //////////////////////////align items horizontally */
+    align-items: center;
+    justify-content: space-around; /* //////////////Optional: To distribute ///////////////////////////space evenly between items */
+    font-size: 0.8em; /* Add this line to ////////////set the text ///////////size to small */
+    width: 100%;
+
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 500px 900px;
+    background-color: #FF6666;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding: 43px;
+    gap:400px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+.logo-img {
+    height: 50px;
+}
+
+.agency-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: #ddd;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.nav-menu p {
+    margin: 0;
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-menu img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.nav-menu a:last-child {
+    color: red;
+    font-weight: bold;
+
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.car-search-form {
+    border: 1px solid #ccc; /* ///////////////////////Add a border////////////////////////////////// around the form */
+    padding: 20px; /* Add ////////////padding inside/////////////// the form */
+    border-radius: 5px; /* Round the////////////////////// corners */
+    background-color: #f9f9f9; /* Light background///////////////// color */
+    max-width: 500px; /* Set a maximum ///////////width */
+    margin: 20px auto; /* Center the form ////////////////on the page */
+}
+
+.car-search-form label {
+    display: block; /* Make labels block //////////////elements */
+    margin-bottom: 8px; /* Space //////////below the label */
+    font-weight: bold; /* Make the//////////////////////////// label text bold */
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+.car-search-form input[type="date"],
+.car-search-form input[type="number"],
+.car-search-form select {
+    width: 100%; /* Full width inputs ////////////////////////////and selects */
+    padding: 8px; /* Padding inside the ///////////////inputs */
+    margin-bottom: 20px; /* Space below each ////////////input */
+    border: 1px solid #ccc; /* Border ///////////////for the inputs */
+    border-radius: 4px; /* Round the ///////////////corners */
+    box-sizing: border-box; /* Include//////////////// padding in width */
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+.car-search-form input[type="submit"] {
+    background-color: #4CAF50; /* Green //////////////////////background */
+    color: white; /* White ///////////text */
+    padding: 10px 20px; /* Padding/////////// inside the button */
+    border: none; /* No/////////// border */
+    border-radius: 4px; /* Round //////////////the corners */
+    cursor: pointer; /* Pointer cursor//////////// on hover */
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+.car-search-form input[type="submit"]:hover {
+    background-color: #45a049; /* Darker///////////////////// green on hover */
+}
+
+  
+/* CSS for search fuel type /////////////classes */
+.petrol {
+    background-color: #FFD700; /* Example color////////// for petrol background */
+    color: #000000; /* Example color for petrol ///////////////text */
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////// */
+.diesel {
+    background-color: #008000; /* Example/////////// color for diesel background */
+    color: #FFFFFF; /* Example color for diesel///////////////// text */
+}
+
+.electric {
+    background-color: #4169E1; /* Example color for/////////// electric background */
+    color: #FFFFFF; /* Example color for electric/////////////// text */
+}
+
+/* Generic fuel type class for common /////////////////////////////////////styles */
+.fuel-type {
+    font-weight: bold;
+}
+/*Submission Button ///////////////////////Styling*/
+input[type="submit"] {
+    background-color: #008CBA; /* Example background color/////////////////////// for submit button */
+    border: 2px solid #008CBA; /* Example border for submit button */
+    color: #FFFFFF; /* Example color for submit ////////////////////button text */
+    padding: 10px 20px; /* Example padding for///////////// submit button */
+}
+
+input[type="submit"]:hover {
+    background-color: #005F6B; /* Example background///////////// color on hover for submit button */
+}
+
+/*List Styling*/
+ul {
+    list-style-image: url('bullet.png'); /* Example image ////////////////for unordered list */
+}
+
+select {
+    list-style-image: url('select-arrow.png'); /* Example image for ////////////////select dropdown */
+}
+/*External Links Styling*/
+a.external {
+    color: #FF0000; /* Example color for/////////////// external links */
+    text-decoration: underline; /* Example text decoration for //////////////external links */
+}
+
+a.external:visited {
+    color: #990000; /* Example color for//////////////// visited external links */
+}
+
+a.external:hover {
+    color: #FF6666; /* Example color for hovering /////////////external links */
+}
+/*Table Styling*/
+table {
+    border: 1px solid #FF0000; /* Example/////////////// border for table */
+    width: 100%; /* Example width ////////////////for table */
+    padding: 43px;
+
+}
+body {
+    padding-left: 145px;
+}
+
+tr:nth-child(even) {
+    background-color:  #005F6B; /* Example ////////////background color for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color:  #FF0000; /* Example ////////////background color for odd rows */
+}
+/*Table Header Styling:*/
+th {
+    background-color: #333333; /* Example ///////////background color for table header */
+    color: #FFFFFF; /* Example color for table ////////////header text */
+    text-align: center; /* Example text alignment for///////////// table header */
+}
+/*Styling Input Labels*/
+label {
+    border:  solid #005F6B; /* Example border ///////////for labels */
+    padding: 3px; /* Example padding for/////////////// labels */
+}
+/*Styling Input Focus*/
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    background-color: #008000; /* Example ////////////background color on focus */
+}
+/*Using Figure Element for //////////////Images*/
+figure {
+    position: relative; /* Example position/////////////// for figure */
+    display: inline-block; /* Example display //////////////for figure */
+}
+
+
+figcaption {
+    position: absolute; /* Example position for ////////////////figcaption */
+    bottom: 0; /* Example bottom position for /////////////figcaption */
+    background-color: rgba(0, 0, 0, 0.7); /* Example /////////////background color for figcaption */
+    color:  #008000; /* Example color for figcaption //////////text */
+    width: 100%; /* Example width for //////////figcaption */
+    padding: 10px; /* Example padding ////////////for figcaption */
+    text-align: center; /* Example text alignment for figcaption */
+}
+
+/* Changing Box Model Properties */
+.content {
+    padding: 20px; /* Example padding for content */
+    margin: 10px; /* Example margin for content */
+    border: 1px solid #008000; /* Example border for content */
+}
+
+
+h1, h2, h3 {
+    font-weight: bold; /* Example font weight for headers */
+    color: #333333; /* Example color for headers */
+}
+
+
+/* CSS for Required Fields*/
+input:required {
+    border: 1px solid red; /* Example style for required fields */
+}
+/* when return customer button*/
+.btn-return {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #007bff;
+}
+
+.btn-return:hover {
+    background-color: #0056b3;
+}
+
+/* Define CSS classes for different view rental statuses */
+.future {
+    background-color: #007bff; /* Light blue for future rentals */
+    color: #ffffff; /* White text color */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.current {
+    background-color: #ffc107; /* Light yellow for current rentals */
+    color: #000000; /* Black text color */
+    font-style: italic; /* Italic text for current rentals */
+}
+
+.past {
+    background-color: #28a745; /* Light green for past rentals */
+    color: #ffffff; /* White text color */
+}
+/* Define CSS classes for different profile */
+h1 {
+    text-align: center;
+    color:  #28a745;
+    text-align: center; /* Example text alignment for figcaption */
+
+}
+
+.profile-form {
+    width: 30%; /* Adjust the width of the form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Example text alignment for figcaption */
+    background:  #ffc107;;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    display: block;
+    font-size: 14px; /* Adjust label font size */
+}
+
+.form-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 50%; /* Input width set to 100% */
+    font-size: 14px; /* Adjust input font size */
+    text-align: center; /* Example text alignment for figcaption */
+
+}
+
+.btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px; /* Adjust button padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center; /* Example text alignment for figcaption */
+
+}
+
+.btn:hover {
+    background:  #ffc107;;
+}
+
+/* Style for the container holding car details */
+.car-details-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the flex container */
+}
+
+/* Style for the left side containing car image */
+.car-image {
+    flex: 1 1 auto; /* Let the image take up available space */
+    margin-right: 20px;
+}
+
+.car-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Style for the right side containing car description and additional info */
+.car-info {
+    flex: 1 1 auto; /* Let the info take up available space */
+}
+
+.car-description {
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.car-description li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    gap: 20px
+}
+
+.rent-button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center; 
+    margin-top: 100px;
+
+}
+
+.additional-info {
+    margin-top: 20px;
+    padding-right: 10px;
+}
+/* error masseges*/
+.success-message {
+    color: green;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+/* error masseges  when add location*/
+.error { color: red; }
+.success-message { color: green; }
+.error-message { color: red; }
+
+.form-container2 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for log in /////////////*/
+.form-container2 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style for table///////////////////////////////////////////////// */
+.form-table2 {
+    width: 100%;
+}
+
+/* Style for table headers///////////////////// */
+.form-table2 th {
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* Style for//////////////////// table cells */
+.form-table2 td {
+    padding: 5px;
+}
+
+/* Style for//////////////////////// input fields */
+.form-input2 {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Style for///////////////// submit button */
+.form-submit2 {
+    padding: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Style for////////////////// submit button on hover */
+.form-submit2:hover {
+    background-color: #45a049;
+}
+
+/* Styles for in index.php///////////////////////////////////////// promotional items */
+.promotional-item {
+    margin-bottom: 20px;
+}
+
+/* Styles for //////////////headings */
+.promotional-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Styles for ///////////////// images */
+.promotional-item img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+    display: block; /* Remove default inline////////////////// image styling */
+    margin-bottom: 10px;
+}
+
+/* Styles for image/////////////////// captions */
+.promotional-item figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 5px;
+    text-align: center; /* Center the /////////////////////////////caption */
+}
+
+/* Styles for ////////////////////////price */
+.promotional-item h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
