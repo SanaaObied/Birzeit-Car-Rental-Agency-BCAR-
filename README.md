@@ -17,7 +17,7 @@ when  clicking on Add A New Location:
 when  clicking on Cars Inquire:
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/895076da-b8d3-48db-ab05-acc4401e8aa9">
 <img width="1271" alt="image" src="https://github.com/user-attachments/assets/2093a8d4-baa7-49f1-8da1-438b78d08571">
-when  clicking on Returning Cars:
+when  clicking on Manager Return:
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/be6cf1c7-ee41-4107-bdcf-d01705511048">
 
 
