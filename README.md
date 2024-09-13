@@ -20,6 +20,25 @@ when  clicking on Cars Inquire:
 when  clicking on Manager Return:
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/be6cf1c7-ee41-4107-bdcf-d01705511048">
 
+On the Birzeit Car Rental Agency (BCAR) customer page, registered users can rent cars, return rented vehicles, view their rental history, and update their profile information. The page offers an easy-to-use interface for managing all rental activities securely and efficiently.
+
+<img width="1271" alt="image" src="https://github.com/user-attachments/assets/e999dc0e-4ec8-4a01-b2c1-67ea47fb65bb">
+when  clicking on View Rents :
+<img width="1271" alt="image" src="https://github.com/user-attachments/assets/18820281-d98a-4c0f-8fc1-a118ebab6488">
+when  clicking on Customer Returns:
+<img width="1271" alt="image" src="https://github.com/user-attachments/assets/4e3c7af3-a50f-400d-9d7c-dcc6b222c474">
+when  clicking on Update or View Profile:
+<img width="1271" alt="image" src="https://github.com/user-attachments/assets/2ea56ab4-5d87-4ec4-a499-5856127fc4f0">
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/cd8c5baa-335f-4250-b1b5-2cd95eb94156">
+when  clicking on About US:
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/b2855ef7-db8a-4afc-a0b4-c285403dfb6c">
+
+
+
+
+
+
+
 
 
 
